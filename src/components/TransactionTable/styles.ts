@@ -7,6 +7,15 @@ export const Container = styled.div`
         width: 100%;
         border-spacing: 0 0.5rem;
 
+        thead {
+            tr {
+                @media (max-width: 660px) {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+
         th {
             color: var(--text-body);
             font-weight: 400;
@@ -33,9 +42,17 @@ export const Container = styled.div`
             &.withdraw {
                 color: var(--red);
             }
-            
+
+            @media (max-width: 660px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 660px) {
+            padding: 0rem auto;
         }
     }
-
-
 `
