@@ -5,9 +5,9 @@ App de finanças
 Link: https://dtmoney-eight-eta.vercel.app
 <br/>
 
-# Tecnologias Usadas
+### Tecnologias Usadas
 
-React
-TypeScript
-Axios
+React<br/>
+TypeScript<br/>
+Axios<br/>
 Miragejs
