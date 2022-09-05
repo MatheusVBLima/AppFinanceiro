@@ -1,6 +1,6 @@
-# AppFinanceiro
+# App Financeiro
 
-App de finanças
+Um simples app que calcula o valor de gastos
 <br/>
 Link: https://dtmoney-eight-eta.vercel.app
 <br/>
