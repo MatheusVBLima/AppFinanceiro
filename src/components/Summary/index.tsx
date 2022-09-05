@@ -9,22 +9,14 @@ import { useState } from "react";
 export function Summary() {
   const { transactions } = useTransactions();
 
-  const [isPositive, setIsPositive] = useState(true);
-
   const summary = transactions.reduce(
     (acc, transaction) => {
       if (transaction.type === "deposit") {
         acc.deposits += transaction.amount;
         acc.total += transaction.amount;
-        if (acc.total < 0) {
-          setIsPositive(false);
-        }
       } else {
         acc.withdraws += transaction.amount;
         acc.total -= transaction.amount;
-        if (acc.total < 0) {
-          setIsPositive(false);
-        }
       }
 
       return acc;
