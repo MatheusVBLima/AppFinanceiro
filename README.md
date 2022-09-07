@@ -10,4 +10,5 @@ Link: https://dtmoney-eight-eta.vercel.app
 React<br/>
 TypeScript<br/>
 Axios<br/>
-Miragejs
+Miragejs<br/>
+Styled Components
